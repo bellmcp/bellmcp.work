@@ -44,18 +44,27 @@ export default function Header() {
           <Link
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}
-            to="/service"
+            to="/project"
           >
-            Service
+            Project
           </Link>
         </li>
         <li>
           <Link
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}
-            to="/files"
+            to="/file"
           >
-            Files
+            File
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={headerStyles.navItem}
+            activeClassName={headerStyles.activeNavItem}
+            to="/contact"
+          >
+            Contact
           </Link>
         </li>
       </ul>
