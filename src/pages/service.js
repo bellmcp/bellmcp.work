@@ -2,12 +2,11 @@ import React from "react";
 import Layout from "../components/layout";
 import Head from "../components/head";
 
-export default function FilePage() {
+export default function ServicePage() {
   return (
     <Layout>
-      <Head title="File" />
-      <title>bellmcp / about</title>
-      <p>File goes here</p>
+      <Head title="Service" />
+      <p>Service goes here</p>
     </Layout>
   );
 }

@@ -2,16 +2,16 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 
-import layoutStyles from "./layout.module.scss";
-
 export default function Layout(props) {
   return (
-    <div className={layoutStyles.container}>
-      <div className={layoutStyles.content}>
+    <div class="container">
+      <div class="row py-5">
         <Header />
-        <section>{props.children}</section>
+        <div class="col-7" id="main">
+          <section>{props.children}</section>
+          <Footer />
+        </div>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -2,12 +2,11 @@ import React from "react";
 import Layout from "../components/layout";
 import Head from "../components/head";
 
-export default function ContactPage() {
+export default function OtherPage() {
   return (
     <Layout>
-      <Head title="Contact" />
-      <title>bellmcp / about</title>
-      <p>Contact goes here</p>
+      <Head title="Other" />
+      <p>Other goes here</p>
     </Layout>
   );
 }
