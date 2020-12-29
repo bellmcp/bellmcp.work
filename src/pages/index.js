@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
+import Head from "../components/head";
 import "../styles/index.scss";
 
 export default function IndexPage() {
   return (
     <Layout>
-      <title>bellmcp / about</title>
+      <Head title="About" />
       <h1>Hello.</h1>
       <h2>
         I'm Wutipat, a computer science student living in Bangkok, Thailand.

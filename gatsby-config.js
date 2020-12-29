@@ -1,14 +1,32 @@
 module.exports = {
   siteMetadata: {
-    title: "bellmcp.work",
+    title: "Wutipat Khamnuansin",
+    author: "Wutipat Khamnuansin",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        fonts: [`noto-sans:400,700`],
-        display: "swap",
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 750,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
       },
     },
   ],

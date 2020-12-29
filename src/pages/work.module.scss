@@ -1,0 +1,32 @@
+.works {
+  list-style-type: none;
+  margin: 0;
+}
+
+.work {
+  margin: 1rem 0;
+
+  a {
+    background: #f4f4f4;
+    border-radius: 6px;
+    color: #222;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: #e4e4e4;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #777;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+}

@@ -1,11 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
+import Head from "../components/head";
 
 export default function FilesPage() {
   return (
     <Layout>
+      <Head title="Files" />
       <title>bellmcp / about</title>
-      <h1>Files</h1>
       <p>Files goes here</p>
     </Layout>
   );
