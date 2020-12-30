@@ -9,7 +9,7 @@ export default function Header() {
     query {
       site {
         siteMetadata {
-          title
+          name
         }
       }
     }
@@ -75,7 +75,7 @@ export default function Header() {
             src={hero}
             alt="Wutipat Khamnuansin"
           />
-          <h2>{data.site.siteMetadata.title}</h2>
+          <h2>{data.site.siteMetadata.name}</h2>
           <p>
             montfort 56
             <br />

@@ -7,7 +7,7 @@ import "../styles/index.scss";
 export default function IndexPage() {
   return (
     <Layout>
-      <Head title="About" />
+      <Head title="about" />
       <h2>About</h2>
       <h3>Education</h3>
       <ul>
@@ -48,11 +48,67 @@ export default function IndexPage() {
         <li>
           2019
           <br />
-          <b>Head of Public Relations</b> at 20th CUCM Camp
+          <b>Head of Public Relations</b> at 20<sup>th</sup> CUCM Camp
           <br />
-          <b>Head of Public Relations</b> at 25th CSCU Camp
+          <b>Head of Public Relations</b> at 25<sup>th</sup> CSCU Camp
+        </li>
+        <li>
+          2018
+          <br />
+          <b>Graphic Designer</b> at SCIREN Club
+          <br />
+          <b>Head of Public Relations</b> at 23<sup>rd</sup> Baanlaijai
+        </li>
+        <li>
+          2017
+          <br />
+          <b>Public Relations</b> at CU Band
+          <br />
+          <b>Public Relations</b> at 23<sup>rd</sup> CU Student Council
         </li>
       </ul>
+      <h3>Skills</h3>
+
+      <table class="table">
+        <tbody>
+          <tr>
+            <td width="25%">
+              <b>Languages</b>
+            </td>
+            <td>HTML, (S)CSS, JavaScript, TypeScript, Python, Java, SQL</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Frameworks</b>
+            </td>
+            <td>ReactJS, React Native, NodeJS, Express, Jest</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Tools</b>
+            </td>
+            <td>Git, MongoDB, Firebase, WordPress</td>
+          </tr>
+          <tr>
+            <td>
+              <b>UX/UI Design</b>
+            </td>
+            <td>XD, Sketch, Figma</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Graphic Design</b>
+            </td>
+            <td>Photoshop, Illustrator, InDesign</td>
+          </tr>
+          <tr>
+            <td>
+              <b>Media Production</b>
+            </td>
+            <td>Premiere Pro, Animate</td>
+          </tr>
+        </tbody>
+      </table>
     </Layout>
   );
 }

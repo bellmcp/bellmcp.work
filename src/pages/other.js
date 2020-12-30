@@ -5,7 +5,7 @@ import Head from "../components/head";
 export default function OtherPage() {
   return (
     <Layout>
-      <Head title="Other" />
+      <Head title="other" />
       <p>Other goes here</p>
     </Layout>
   );

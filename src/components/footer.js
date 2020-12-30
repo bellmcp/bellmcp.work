@@ -8,7 +8,7 @@ export default function Footer() {
     query {
       site {
         siteMetadata {
-          author
+          name
         }
       }
     }
@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer>
       <p className={footerStyles.footer}>
-        Copyright © 2020 {data.site.siteMetadata.author}, All rights reserved.
+        Copyright © 2020 {data.site.siteMetadata.name}, All rights reserved.
       </p>
     </footer>
   );

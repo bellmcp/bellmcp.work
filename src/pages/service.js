@@ -5,7 +5,7 @@ import Head from "../components/head";
 export default function ServicePage() {
   return (
     <Layout>
-      <Head title="Service" />
+      <Head title="service" />
       <p>Service goes here</p>
     </Layout>
   );

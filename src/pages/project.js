@@ -5,7 +5,7 @@ import Head from "../components/head";
 export default function ProjectPage() {
   return (
     <Layout>
-      <Head title="Project" />
+      <Head title="project" />
       <title>bellmcp / about</title>
       <p>Project goes here</p>
     </Layout>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Wutipat Khamnuansin",
-    author: "Wutipat Khamnuansin",
+    title: "bellmcp",
+    name: "Wutipat Khamnuansin",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -11,6 +11,13 @@ module.exports = {
       options: {
         name: "src",
         path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`noto-sans:400,700`],
+        display: "swap",
       },
     },
     "gatsby-plugin-sharp",
